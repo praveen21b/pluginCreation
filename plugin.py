@@ -7,6 +7,10 @@ class SquarePlugin:
 class MultiplySquarePlugin(SquarePlugin):
     def calculate_square(self, num): # overrides the parent class
         return num * num
+    
+class PowerSquarePlugin(SquarePlugin):
+    def calculate_square(self, num):
+        return num ** 2
 
 
 # examples
